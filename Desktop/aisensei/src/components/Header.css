@@ -9,3 +9,7 @@
 .link {
     color: white !important;
 }
+
+.bg-dark {
+    background-color: black !important;
+}

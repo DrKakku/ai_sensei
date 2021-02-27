@@ -1,0 +1,51 @@
+.execiseBackground {
+
+}
+
+.backgroundImg {
+    width: 100vw;
+    height: 150vh;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.exerciseImg {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    margin-right: 50px;
+    
+}
+
+.exerciseMain {
+    margin-left: 20vw;
+    width: 60vw;
+    padding: 30px;
+    border-radius: 10px;
+    border-color: lightgrey;
+    border: 1px solid;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.exerciseSub {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.exerciseTitle {
+    color: white;
+    margin-left: 42vw;
+    padding-top: 50px;
+    padding-bottom: 20p;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}

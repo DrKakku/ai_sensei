@@ -13,3 +13,9 @@
 .bg-dark {
     background-color: black !important;
 }
+
+.navbar,
+.navbar-default {
+    background-image: none !important;
+    background-color: black !important;
+}

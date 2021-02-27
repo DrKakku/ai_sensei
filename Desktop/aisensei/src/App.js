@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import LandingScreen from "./components/LandingScreen";
 import ExerciseScreen from "./components/ExerciseScreen";
+import DashboardScreen from "./components/DashboardScreen";
 import Pushups from "./components/exercises/Pushups";
 import Jumpingjacks from "./components/exercises/Jumpingjacks";
 import Highknees from "./components/exercises/Highknees";
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" component={LandingScreen} exact />
           <Route path="/home" component={LandingScreen} />
           <Route path="/exercises" component={ExerciseScreen} />
+          <Route path="/dashboard" component={DashboardScreen} />
           <Route path="/pushups" component={Pushups} />
           <Route path="/jumpingjacks" component={Jumpingjacks} />
           <Route path="/highknees" component={Highknees} />
